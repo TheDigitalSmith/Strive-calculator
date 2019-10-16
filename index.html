@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+</head>
+<body>
+    <!-- 
+        1. Create a structure of the calculator [complete]
+        2. Style the calculator [complete]
+        3. Add the behaviour of the calculator [incomplete]
+            - +, -, / , *
+            - C => reset the calc
+            - = => to get result
+        [   result
+            7 8 9 +
+            4 5 6 -
+            1 2 3 *
+            C 0 = / ]
+    -->
+    <div id = "calculator"> 
+        <table>
+            <tr>
+                <td colspan = "4">
+                <input type = "number" value ="0" id = "result" /> 
+                </td>
+            </tr>
+            <tr>
+                <td> <input type = "button" class = "numericbutton" value = "7"/> </td>
+                <td> <input type = "button" class = "numericbutton" value = "8"/> </td>
+                <td> <input type = "button" class = "numericbutton" value = "9"/> </td>
+                <td> <input type = "button" class = "actionbutton" value = "+"/> </td>
+            </tr>
+            <tr>
+                <td> <input type = "button" class = "numericbutton" value = "4"/> </td>
+                <td> <input type = "button" class = "numericbutton" value = "5"/> </td>
+                <td> <input type = "button" class = "numericbutton" value = "6"/> </td>
+                <td> <input type = "button" class = "actionbutton" value = "-"/> </td>
+            </tr>
+            <tr>
+                <td> <input type = "button" class = "numericbutton" value = "1"/> </td>
+                <td> <input type = "button" class = "numericbutton" value = "2"/> </td>
+                <td> <input type = "button" class = "numericbutton" value = "3"/> </td>
+                <td> <input type = "button" class = "actionbutton" value = "*"/> </td>
+            </tr>
+            <tr>
+                <td> <input type = "button" class = "actionbutton" value = "C"/> </td>
+                <td> <input type = "button" class = "numericbutton" value = "0"/> </td>
+                <td> <input type = "button" class = "actionbutton" value = "="/> </td>
+                <td> <input type = "button" class = "actionbutton" value = "/"/> </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
